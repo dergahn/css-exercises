@@ -1,0 +1,32 @@
+.odd {
+  background-color: #ffc0cb;
+  font-family: "Verdana", "DejaVu Sans", "sans-serif";
+}
+
+.odd.three {
+  font-size: 24px;
+}
+
+#two {
+  color: #4169e1;
+  font-size: 36px;
+}
+
+#four {
+  background-color: #90ee90;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*
+    Try to reduce duplicate code! 
+    --> Same font size --> use a class to adjust the font size, e.g.:
+
+    .adjust-font-size {
+      font-size: 24;
+    }
+    
+    in "index.html":
+
+    <div id="four" class="adjust-font-size">Number 4 - I'm another ID.</div>
+*/
